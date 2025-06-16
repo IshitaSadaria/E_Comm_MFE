@@ -1,1 +1,2 @@
-console.log("Container module loaded");
+import ('./bootstrap.js')
+// This file is the entry point for the container application.
