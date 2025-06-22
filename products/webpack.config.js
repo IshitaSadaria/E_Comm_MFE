@@ -12,7 +12,7 @@ module.exports = {
             name: 'products',
             filename: 'remoteEntry.js',
             exposes: {
-                './ProductsIndex': './src/index', // this is the file that we want to expose to the world, so that other applications can use it.
+                './ProductsIndex': './src/bootstrap.js', // this is the file that we want to expose to the world, so that other applications can use it.
             },
             shared: ['faker']
         }),
